@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/members.js", "pages/members.js", "components/card.js", "pages/alumni.js", "components/header.js", "pages/gallery.js"],
+  "exclude": ["node_modules"]
+}
